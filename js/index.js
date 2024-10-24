@@ -1,3 +1,88 @@
+// 5 ta construktor funksiyaga oid misol yozish
+// 1-misol
+// function User(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+// const person1 = new User('John', 25)
+// console.log(person1);
+
+// 2-misol
+// function Email(Email, phone) {
+//   this.Email = Email;
+//   this.phone  = phone;
+// }
+// const email = new Email('test@gmail.com', +99889876)
+// console.log(email);
+// 3-misol
+// function Car(brand, year) {
+//   this.brand = brand;
+//   this.year = year;
+// }
+// const car = new Car('BMW', 2022)
+// console.log(car);
+
+// 4-misol
+// function Book(title, author) {
+//   this.title = title;
+//   this.author = author;
+// }
+// const book = new Book('1984', 'George Orwell')
+// console.log(book);
+
+
+// 5-misol
+// function Computer(cpu, storage) {
+//   this.cpu = cpu;
+//   this.storage = storage;
+// }
+// const comp = new Computer('Intel i7', '512GB')
+// console.log(comp);
+
+
+// 5 ta class ga oid misol yozish
+// 1-misol
+// class person{
+//   constructor(name, age){
+//     this.name = name;
+//     this.age = age;
+//   }
+// }
+
+
+// 2-misol
+// class Car {
+//   constructor(brand, model) {
+//     this.brand = brand;
+//     this.model = model;
+//   }
+// }
+
+// 3-misol
+// class Book {
+//   constructor(title, author) {
+//     this.title = title;
+//     this.author = author
+//   }
+// }
+
+// 4-misol
+// class Phone {
+//   constructor(brand, model) {
+//     this.brand = brand;
+//     this.model = model;
+//   }
+// }
+
+
+// 5-misol
+class Student {
+  constructor(name, grade) {
+    this.name = name;
+    this.grade = grade;
+  }
+}
+
 // Massiv va obyektlar misollar
 // 1-misol
 // const oquvchilar = [
@@ -221,22 +306,23 @@
 // let res = 'Salom, dunyo'
 // console.log(res);
 
-// 7-misol
+// // 7-misol
 // const qidiruv = (satr) => {
 //   return satr.includes("JavaScript")
 
-// }
+//   // }
 
-// const natijaniChopEtish = (satr) => {
-//   const mavjudmi = qidiruv(satr)
-//   if (mavjudmi) {
-//     console.log('Javascript sozi mavjud');
+//   const natijaniChopEtish = (satr) => {
+//     const mavjudmi = qidiruv(satr)
+//     if (mavjudmi) {
+//       console.log('Javascript sozi mavjud');
 
-//   } else {
-//     console.log('Javascript sozi mavjud emas');
+//     } else {
+//       console.log('Javascript sozi mavjud emas');
 
+//     }
 //   }
 // }
-// let res = 'JavaScript   dasturlash tili'
-// natijaniChopEtish(res);
+//   let res = 'JavaScript   dasturlash tili'
+//   natijaniChopEtish(res);
 
